@@ -1,0 +1,12 @@
+# BatFileToPublishProject
+
+//dotnet publish "<projectpath>\<projectname>.csproj" -o "<Where to Publish path>"
+
+//project path: C:\Project\EmployeeManagement
+//project name: EmployeeAPI
+//where to publish path: C:\Publish\EmployeeAPI
+
+//final text
+
+dotnet publish "C:\Project\EmployeeManagement\EmployeeAPI.csproj" -o "C:\Publish\EmployeeAPI"
+
